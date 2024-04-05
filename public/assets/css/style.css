@@ -6,8 +6,20 @@
 
 body {
   font-family: "Poppins";
+  background-color: black;
 }
 
 .description {
   font-size: 0.9rem;
+}
+
+.card-title {
+  font-size: 1.1rem;
+  font-weight: bold;
+  height: 3rem;
+}
+
+.poster {
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 10px 34px 0px;
+  border: 5px black solid;
 }
