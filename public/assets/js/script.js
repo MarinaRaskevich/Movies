@@ -37,7 +37,7 @@ const getData = (data) => {
           movie.poster_path
         }" alt="${movie.title}" class="w-100 poster">
         <div class="card-body">
-          <h5 class="card-title text-white">${movie.title}</h5>
+          <h2 class="card-title text-white fs-5">${movie.title}</h2>
           <div class="d-flex justify-content-between">
             <p class="card-text ${rateColor}"><i class="bi bi-star-fill ${rateColor}"></i> ${parseFloat(
       movie.vote_average.toFixed(1)
